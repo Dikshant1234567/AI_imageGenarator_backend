@@ -4,7 +4,7 @@ import express from "express";
 
 const router = express.Router();
 const openai = new OpenAIApi({
-  apiKey: "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",
+  apiKey: "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",
 });
 
 console.log("message from dalle route ----> working")

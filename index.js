@@ -4,12 +4,11 @@ import bodyParser from "body-parser";
 import dbconnection from "./db/dbConnect.js";
 import dalleRoute from './routes/dalleRoute.js'
 import postRoute from './routes/postRoute.js';
-import AbortControllerPolyfill from 'abortcontroller-polyfill/dist/abortcontroller-polyfill-only';
+import AbortControllerPolyfill from 'abortcontroller-polyfill/dist/abortcontroller-polyfill-only.js';
 
 // Assign the polyfill to the AbortController variable
 const AbortController = AbortControllerPolyfill;
 
-app.use()
 const app = express()
 const port =process.env.PORT || 5555  ;
 app.use(bodyParser.json())
