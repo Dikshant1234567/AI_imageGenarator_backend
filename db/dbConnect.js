@@ -1,7 +1,5 @@
 import mongoose from "mongoose";
-import dotenv from 'dotenv';
 
-dotenv.config();
 const Url =
   "mongodb+srv://Dikshant:Dikshant@cluster0.c7k2t4h.mongodb.net/?retryWrites=true&w=majority";
 
